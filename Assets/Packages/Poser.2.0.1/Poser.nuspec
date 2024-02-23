@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Poser</id>
+    <version>2.0.1</version>
+    <title>Pose</title>
+    <authors>Søren Guldmund</authors>
+    <owners>Søren Guldmund</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>docs\README.md</readme>
+    <projectUrl>https://github.com/Miista/Pose</projectUrl>
+    <description>Replace any .NET method (including static and non-virtual) with a delegate</description>
+    <releaseNotes>Fix bug where `Enum.IsDefined` could not be called from within `PoseContext.Isolate`.</releaseNotes>
+    <copyright>Copyright 2024</copyright>
+    <tags>pose;mocking;testing;unit-test;isolation-framework;test-framework</tags>
+    <repository type="git" url="https://github.com/Miista/Pose.git" />
+    <dependencies>
+      <dependency id="Mono.Reflection.Core" version="1.1.1" />
+      <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" />
+      <dependency id="System.Runtime.CompilerServices.Unsafe" version="5.0.0" />
+    </dependencies>
+  </metadata>
+</package>

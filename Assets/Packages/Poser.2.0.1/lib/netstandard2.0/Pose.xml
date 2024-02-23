@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pose</name>
+    </assembly>
+    <members>
+        <member name="P:Pose.IL.DebugHelpers.BrowsableDynamicMethod.Module">
+            <summary>
+            This method is called by Mono.Reflection.Disaasembler.GetInstructions
+            </summary>
+        </member>
+    </members>
+</doc>

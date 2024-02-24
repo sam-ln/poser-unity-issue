@@ -57,13 +57,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
-/Packages
-/ProjectSettings
-/.vscode
-/Assets/Resources
-/Assets/Resources.meta
-/Assets/UdonSharp
-/Assets/UdonSharp.meta
-/.idea
-/Assets/Plugins
